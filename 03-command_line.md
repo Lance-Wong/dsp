@@ -20,7 +20,17 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> >* `pwd`- show current working directory path
+> >* `mkdir`- creating a directory
+> >* `rm -r`deleting a directory
+> >* `touch`- creating a file using `touch` command
+> >* `rm` - deleting a file
+> >* `mv`- renaming a file
+> >* `ls -a`- listing hidden files
+> >* `cp`- copying a file from one directory to another
+> >* `cd ..` -Moves one level up the directory, add /.. for more levels
+> >* `grep`- searches for files that match the filter, case sensitive
+
 
 ---
 
@@ -35,7 +45,14 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls`  - lists visible files in folder/ directory  
+`ls -a`  - lists all files in folder / directory  
+`ls -l`  - lists files in table (long form) format  
+`ls -lh` - lists files in table (long form) format, and presents it in human readable form  
+`ls -lah` - lists all files in table format, and presents it in human readable form  
+`ls -t`  - lists files in order of date modified  
+`ls -Glp`  - omits group name, list files in long format, and adds a "/" to the end of the directory
+
 
 ---
 
@@ -43,7 +60,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `-m` - Displays the names as a comma-separated list  
+`-R`- Displays subdirectories
+`-r`- displays in reverse order
+`-u`- organizes by access time
+`-1`- displays each item as a row
 
 ---
 
@@ -51,7 +72,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `xargs` can be used to build commands through standard inputs, and is helpful when filtering for files. For example, if i were to try to find files within a directory with an certain extention, I could pipe that output into xarg grep to determine files that contain files matching the grep argument.
 
  
 
