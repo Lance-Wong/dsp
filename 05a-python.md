@@ -10,3 +10,4 @@ All Python exercises must be completed via HackerRank. Do not be afraid to googl
 
 Furthermore, when completing HackerRank exercises, be sure to fire up Jupyter Notebook to test and debug code locally before posting it to HackerRank. This will be excellent practice in getting comfortable with the Jupyter Notebook environment.
 
+okay thank you
